@@ -1,0 +1,170 @@
+####################################
+#Number of FTK Towers
+####################################
+NumberOfFTKTowers 64
+####################################
+#Mapping between Board Number to Logical Location (ShelfAndSlot)
+#Key Board Shelf Slot
+####################################
+BoardNToShelfAndSlot   0  1   3
+BoardNToShelfAndSlot   1  2   3
+BoardNToShelfAndSlot   2  3   3
+BoardNToShelfAndSlot   3  4   3
+BoardNToShelfAndSlot   4  1   4
+BoardNToShelfAndSlot   5  2   4
+BoardNToShelfAndSlot   6  3   4
+BoardNToShelfAndSlot   7  4   4
+BoardNToShelfAndSlot   8  1   5
+BoardNToShelfAndSlot   9  2   5
+BoardNToShelfAndSlot  10  3   5
+BoardNToShelfAndSlot  11  4   5
+BoardNToShelfAndSlot  12  1   6
+BoardNToShelfAndSlot  13  2   6
+BoardNToShelfAndSlot  14  3   6
+BoardNToShelfAndSlot  15  4   6
+BoardNToShelfAndSlot  16  1   7
+BoardNToShelfAndSlot  17  2   7
+BoardNToShelfAndSlot  18  3   7
+BoardNToShelfAndSlot  19  4   7
+BoardNToShelfAndSlot  20  1   8
+BoardNToShelfAndSlot  21  2   8
+BoardNToShelfAndSlot  22  3   8
+BoardNToShelfAndSlot  23  4   8
+BoardNToShelfAndSlot  24  1   9
+BoardNToShelfAndSlot  25  2   9
+BoardNToShelfAndSlot  26  3   9
+BoardNToShelfAndSlot  27  4   9
+BoardNToShelfAndSlot  28  1  10
+BoardNToShelfAndSlot  29  2  10
+BoardNToShelfAndSlot  30  3  10
+BoardNToShelfAndSlot  31  4  10
+####################################
+#=========================================
+# Mapping between FTK plane and output bit
+#=========================================
+#Key Plane OutBit
+####################################
+PlaneToOutBit  0 8
+PlaneToOutBit  1 0
+PlaneToOutBit  2 1
+PlaneToOutBit  3 2
+PlaneToOutBit  4 3
+PlaneToOutBit  5 8
+PlaneToOutBit  6 4
+PlaneToOutBit  7 8
+PlaneToOutBit  8 5
+PlaneToOutBit  9 6
+PlaneToOutBit 10 7
+PlaneToOutBit 11 8
+####################################
+#======================================================================
+# Mapping between DF board ID and tower assignment
+#======================================================================
+# Key BoardN TowerN
+####################################
+BoardNToTopTower 0 2
+BoardNToBotTower 0 3
+BoardNToTopTower 1 6
+BoardNToBotTower 1 7
+BoardNToTopTower 2 10
+BoardNToBotTower 2 11
+BoardNToTopTower 3 14
+BoardNToBotTower 3 15
+BoardNToTopTower 4 18
+BoardNToBotTower 4 19
+BoardNToTopTower 5 22
+BoardNToBotTower 5 23
+BoardNToTopTower 6 26
+BoardNToBotTower 6 27
+BoardNToTopTower 7 30
+BoardNToBotTower 7 31
+BoardNToTopTower 8 34
+BoardNToBotTower 8 35
+BoardNToTopTower 9 38
+BoardNToBotTower 9 39
+BoardNToTopTower 10 42
+BoardNToBotTower 10 43
+BoardNToTopTower 11 46
+BoardNToBotTower 11 47
+BoardNToTopTower 12 50
+BoardNToBotTower 12 51
+BoardNToTopTower 13 54
+BoardNToBotTower 13 55
+BoardNToTopTower 14 58
+BoardNToBotTower 14 59
+BoardNToTopTower 15 62
+BoardNToBotTower 15 63
+BoardNToTopTower 16 4
+BoardNToBotTower 16 5
+BoardNToTopTower 17 8
+BoardNToBotTower 17 9
+BoardNToTopTower 18 12
+BoardNToBotTower 18 13
+BoardNToTopTower 19 0
+BoardNToBotTower 19 1
+BoardNToTopTower 20 20
+BoardNToBotTower 20 21
+BoardNToTopTower 21 24
+BoardNToBotTower 21 25
+BoardNToTopTower 22 28
+BoardNToBotTower 22 29
+BoardNToTopTower 23 16
+BoardNToBotTower 23 17
+BoardNToTopTower 24 36
+BoardNToBotTower 24 37
+BoardNToTopTower 25 40
+BoardNToBotTower 25 41
+BoardNToTopTower 26 44
+BoardNToBotTower 26 45
+BoardNToTopTower 27 32
+BoardNToBotTower 27 33
+BoardNToTopTower 28 52
+BoardNToBotTower 28 53
+BoardNToTopTower 29 56
+BoardNToBotTower 29 57
+BoardNToTopTower 30 60
+BoardNToBotTower 30 61
+BoardNToTopTower 31 48
+BoardNToBotTower 31 49
+####################################
+#======================================================================
+# Mapping between ATCA Fabric Channel and Output bit
+#======================================================================
+# Key Channel Bit
+####################################
+ChanToOutBit  3  0
+ChanToOutBit  4  8
+ChanToOutBit  5  4
+ChanToOutBit  6 12
+ChanToOutBit  7  2
+ChanToOutBit  8 10
+ChanToOutBit  9  6
+ChanToOutBit 10  3
+ChanToOutBit 11  5
+ChanToOutBit 12  7
+####################################
+#======================================================================
+# Mapping between DF DF Fiber Connection
+#======================================================================
+####################################
+# Key Board1 Board2
+DFFiberConnection 0 14
+DFFiberConnection 2 17
+DFFiberConnection 3 18
+DFFiberConnection 4 23
+DFFiberConnection 6 21
+DFFiberConnection 7 22
+DFFiberConnection 8 27
+DFFiberConnection 10 25
+DFFiberConnection 11 26
+DFFiberConnection 12 31
+DFFiberConnection 19 29
+DFFiberConnection 15 30
+DFFiberConnection 5 20
+DFFiberConnection 1 310001
+DFFiberConnection 16 310002
+DFFiberConnection 9 310003
+DFFiberConnection 24 310004
+DFFiberConnection 13 310005
+DFFiberConnection 28 310006
+

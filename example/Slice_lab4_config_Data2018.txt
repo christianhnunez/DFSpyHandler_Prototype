@@ -1,0 +1,22 @@
+################################
+##Key BoardNumber Enabled?(0 = no, 1 = yes)
+################################
+### shelf 2 slot 4
+boardEnable 5  1 
+################################
+##KEY RobID DFNumber IMLane
+########################
+########################
+rodToBoard 0x220100 5 5
+rodToBoard 0x220101 5 7
+rodToBoard 0x220102 5 11
+rodToBoard 0x220103 5 15
+rodToBoard 0x112559 5 6
+rodToBoard 0x130146 5 14
+rodToBoard 0x112521 5 4
+rodToBoard 0x111750 5 2
+rodToBoard 0x140103 5 0 
+rodToBoard 0x140093 5 8
+#rodToBoard 0x111710 5 12
+rodToBoard 0x130149 5 10   
+########################
